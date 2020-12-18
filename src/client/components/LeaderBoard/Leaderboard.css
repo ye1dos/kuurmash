@@ -1,0 +1,49 @@
+
+.modal1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cbutton {
+    border: none;
+    background: none;
+    padding-left: 18em;
+    color: #FF605C;
+}
+.openButton {
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #c9c9c9;
+    border-color: #c9c9c9;
+    color: black;
+
+}
+
+.closeButton {
+    border-radius: 5px;
+}
+
+.scoreBadge {
+    float: right;
+}
+
+/* Mobile */
+/* @media only screen and (max-width: 1000px) { */
+    /* .desktop-msg {
+        width: 10rem;
+        height: 10rem;
+    } */
+/* } */
+.desktop-msg {
+    color: black;
+}
+/* Desktop */
+@media only screen and (min-width: 1000px) {
+    .mobile-msg {
+        display: none;
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 501px) {
+    .choice-panel {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.choice-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
